@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "IRA System",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app_logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash_screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7B53A2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app_logo.png",
+        "backgroundColor": "#7B53A2"
+      },
+      "package": "com.nehan_shanuka.frontend"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/app_logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "099a3ba8-63b6-408d-b7f6-c2a374839f8a"
+      }
+    }
+  }
+}
